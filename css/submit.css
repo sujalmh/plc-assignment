@@ -1,0 +1,36 @@
+#submitButton{
+  justify-self:center;
+  margin-top: 10px;
+  background-color:  #000;
+  color:  #FFE900;
+  border: 2px solid  #FFE900;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  border-radius:40px;
+  transition: 0.4s;
+}
+
+.unchecked{
+  font-size: 110%;
+}
+.checkmark{
+  display: none;
+}
+
+.unchecked:hover{
+  background-color:  #FFE900;
+  color: #000;
+  border: 2px solid #000;
+  font-size: 110%;
+  transition: 0.4s;
+}
+
+footer{
+  background-color: #000;
+  color: rgb(179, 179, 179);
+}
+
+.clicked{
+  font-size: 0;
+}

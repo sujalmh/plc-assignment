@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/favicon.ico" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Hebbit Techonologies</title>
+  </head>
+  <body>
+    <div class="loader"></div>
+
+    <style>
+        * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #f1f1f1;
+}
+.loader {
+  border: 10px solid #222;
+  width: 80px;
+  height: 80px;
+  /* bringing to middle */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  border-top-color: transparent;
+  /* addding spin */
+  animation: spin 0.7s linear infinite;
+}
+/* i am stoping the animation for now */
+@keyframes spin {
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+    </style>
+    <script>
+        // also we need to make the O small
+        setTimeout(() => {
+          window.location.href="https://youtu.be/dQw4w9WgXcQ";
+        }, 1000);
+
+        // 4000 = 4 seconds ( 1000 = 1 second)
+      </script>
+    
+        
+  </body>
+</html>
